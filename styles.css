@@ -1,0 +1,41 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-banner {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #f3f3f3, #e6e6e6);
+}
+.hero-text {
+  font-size: 3em;
+  font-weight: bold;
+  color: #000;
+}
+.hero-subtext {
+  font-size: 1.2em;
+  color: #666;
+}
+.btn {
+  padding: 10px 20px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+.community-feed img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
